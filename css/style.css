@@ -77,6 +77,7 @@ a {
 }
 
 .main-header {
+  text-align: center;
 	background: #3acec2;
   padding: 1em 0;
   margin-bottom: 30px;
@@ -116,7 +117,6 @@ a {
   
   .name {
     width: 240px;
-    margin-right: 50px;
   }
   
 }
