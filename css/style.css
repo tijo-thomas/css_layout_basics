@@ -28,6 +28,20 @@ a {
   margin: 0;
 }
 
+.name,
+.main-nav li {
+  text-align: center;
+  background: #fff;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+.main-nav a {
+  font-size: .95em;
+  color: #3acec2;
+  text-transform: uppercase;
+}
+
 /* ---- Layout Containers ---- */
 
 .container {
