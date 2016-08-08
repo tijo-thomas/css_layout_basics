@@ -123,5 +123,14 @@ a {
     margin-right: 12px;
   }
   
+  .primary-col,
+  .secondary-col {
+    width: 50%;
+    display: inline-block;
+    margin-right: -4px;
+    vertical-align: top;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
