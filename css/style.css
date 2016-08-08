@@ -135,6 +135,12 @@ a {
   
   .feat-img {
     width: 100px;
+    float: left;
+    margin-top: 5px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+    padding: 5px;
+    border: 1px solid red;
   }
 }
 
