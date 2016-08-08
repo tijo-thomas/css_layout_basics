@@ -42,6 +42,10 @@ a {
   text-transform: uppercase;
 }
 
+.main-nav a:hover {
+  color: #093a58;
+}
+
 /* ---- Layout Containers ---- */
 
 .container {
