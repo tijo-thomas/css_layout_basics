@@ -11,6 +11,11 @@ body {
 	color: #3a3a3a;
 }
 
+p {
+  font-size: .95em;
+  margin-bottom: 1.5em;
+}
+
 a { 
 	color: #fff;
 	text-decoration: none;
@@ -26,6 +31,7 @@ a {
 
 .name {
   margin: 0;
+  font-size: 1.25em;
 }
 
 .name,
