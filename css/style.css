@@ -52,6 +52,7 @@ a {
 .main-header {
 	background: #3acec2;
   padding: 1em 0;
+  margin-bottom: 30px;
 }
 
 .main-footer {
@@ -79,5 +80,6 @@ a {
     max-width: 1000px;
     margin: 0 auto;
   }
+  
 }
 
