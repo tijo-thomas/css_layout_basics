@@ -16,6 +16,17 @@ p {
   margin-bottom: 1.5em;
 }
 
+h2,
+h3,
+a {
+  color: #093a58;
+}
+
+h2,
+h3 {
+  margin-top: 0;
+}
+
 a { 
 	color: #fff;
 	text-decoration: none;
