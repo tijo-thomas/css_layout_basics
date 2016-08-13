@@ -53,6 +53,7 @@ img {
   margin-top: 5px;
 }
 
+/* Basically zero's out nav. */
 .name a,
 .main-nav a {
   text-align: center;
