@@ -93,6 +93,11 @@ img {
   margin-bottom: 30px;
 }
 
+.col {
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
 .main-footer {
   text-align: center;
 	padding: 2em 0;
