@@ -145,6 +145,22 @@ figcaption {
 
 @media (min-width: 769px) {
   
+  body {
+    padding-top: 68px;
+  }
+  
+  /*
+    Fixed positioning is always relative to
+    the browser's viewport.
+  */
+  .main-header {
+    position: fixed;
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
+    width: 100%;
+    top: 0; /* Essentially anchors header at the top of the page. */
+  }
+  
   .container {
     width: 90%;
     margin: 0 auto;
