@@ -123,8 +123,14 @@ img {
     margin: 0 auto;
   }
   
-  .name {
+  .name,
+  .col {
     float: left;
+  }
+  
+  .primary,
+  .secondary {
+    width: 50%;
   }
   
   .main-nav {
@@ -148,5 +154,23 @@ img {
     clear: both;
   }
 
+}
+
+@media (min-width: 1024px) {
+  
+  .container {
+    width 80%;
+    max-width: 1150px;
+  }
+  
+  .primary {
+    width: 40%;
+  }
+  
+  .secondary,
+  .tertiary {
+    width: 30%;
+  }
+  
 }
 
