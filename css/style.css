@@ -61,14 +61,6 @@ img {
   padding: 10px 15px;
 }
 
-.name,
-.main-nav li {
-  text-align: center;
-  background: #fff;
-  margin-top: 6px;
-  margin-bottom: 6px;
-}
-
 .main-nav a {
   font-size: .95em;
   color: #3acec2;
@@ -79,18 +71,24 @@ img {
   color: #093a58;
 }
 
+
 /* ---- Layout Containers ---- */
 
-.container {
-  padding-left: 1em;
-  padding-right: 1em;
+.main-header {
+  padding-top: .5em;
+  padding-bottom: .5em;
 }
 
-.main-header {
+.banner,
+.main-footer {
   text-align: center;
-	background: #3acec2;
-  padding: 1em 0;
-  margin-bottom: 30px;
+}
+
+.banner {
+  color: #fff;
+  background: #3acec2;
+  padding: 3.2em 0;
+  margin-bottom: 60px;
 }
 
 .col {
@@ -106,55 +104,27 @@ img {
 
 /* ---- Page Elements ---- */
 
+.logo {
+  width: 190px;
+}
 
+.headline {
+  margin-bottom: 0;
+}
 
 /****************************************
   Media Queries
 ****************************************/
 
 @media (min-width: 769px) {
+
+  /* ---- Float clearfix ---- */
   
-  .wrap {
-    min-height: calc(100vh - 89px);
+  .clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
   }
-  
-  .container {
-    width: 90%;
-    margin: 0 auto;
-  }
-  
-  .name,
-  .main-nav,
-  .main-nav li {
-    display: inline-block;
-  }
-  
-  .name {
-    width: 240px;
-  }
-  
-  .main-nav li {
-    margin-right: 12px;
-  }
-  
-  .primary-col,
-  .secondary-col {
-    width: 50%;
-    display: inline-block;
-    margin-right: -4px;
-    vertical-align: top;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-  
-  .feat-img {
-    width: 100px;
-    float: left;
-    margin-top: 5px;
-    margin-right: 25px;
-    margin-bottom: 5px;
-    padding: 5px;
-    border: 1px solid red;
-  }
+
 }
 
