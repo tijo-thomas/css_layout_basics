@@ -152,6 +152,10 @@ figcaption {
   /*
     Fixed positioning is always relative to
     the browser's viewport.
+    
+    Higer z-index values means element is on
+    top. z-index only affects elements that have
+    relative, absolute, or fixed positioning.
   */
   .main-header {
     position: fixed;
@@ -159,6 +163,7 @@ figcaption {
     box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
     width: 100%;
     top: 0; /* Essentially anchors header at the top of the page. */
+    z-index: 1000;
   }
   
   .container {
