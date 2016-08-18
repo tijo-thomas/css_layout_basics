@@ -28,6 +28,10 @@
     flex-wrap: wrap;
   }
   
+  .secondary {
+    order: -1; /* Makes 2nd column appear first. */
+  }
+  
 }
 
 @media (min-width: 1025px) {
