@@ -33,4 +33,12 @@
     justify-content: space-between;
   }
   
+  /*
+    Give the primary column more space than the
+    secondary column when at the largest viewport.
+  */
+  .primary {
+    flex: 2;
+  }
+  
 }
