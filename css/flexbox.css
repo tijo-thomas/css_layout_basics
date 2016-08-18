@@ -5,13 +5,23 @@
 @media (min-width: 769px) {
   
   .main-header,
-  .main-nav {
+  .main-nav,
+  .row {
     display: flex;
   }
   
   .main-header {
     flex-direction: column;
     align-items: center;
+  }
+  
+  /* 
+    Items of the .row flex container. Sets
+    flex-grow to 1 so items share container
+    space equally.
+  */
+  .col {
+    flex: 1
   }
   
 }
