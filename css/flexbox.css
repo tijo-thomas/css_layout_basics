@@ -21,7 +21,11 @@
     space equally.
   */
   .col {
-    flex: 1
+    flex: 1 50%;
+  }
+  
+  .row {
+    flex-wrap: wrap;
   }
   
 }
@@ -33,12 +37,17 @@
     justify-content: space-between;
   }
   
+  .col {
+    flex-basis: 0;
+  }
+  
   /*
     Give the primary column more space than the
     secondary column when at the largest viewport.
   */
+  
   .primary {
-    flex: 2;
+    flex-grow: 1.4;
   }
   
 }
