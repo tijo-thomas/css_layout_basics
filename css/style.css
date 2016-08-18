@@ -10,11 +10,18 @@ body {
   font-family: "Varela Round", sans-serif;
 	line-height: 1.6;
 	color: #3a3a3a;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
 p {
   font-size: .95em;
-  margin-bottom: 1.5em;
+  margin-bottom: 1.8em;
 }
 
 h2,
@@ -36,13 +43,19 @@ img {
   max-width: 100%;
 }
 
+/*
+
 figure {
   margin: 0;
   line-height: 0;
   position: relative;
 }
 
+*/
+
 /* The figcaption positioning is relative to the first parent element that has a position of relative, which is the figure element. */
+
+/*
 figcaption {
   font-size: .9em;
   line-height: 1.5;
@@ -53,6 +66,8 @@ figcaption {
   bottom: 0;
   width: 100%;
 }
+
+*/
 
 
 
@@ -106,7 +121,7 @@ figcaption {
   color: #fff;
   background: #3acec2;
   padding: 3.2em 0;
-  margin-bottom: 60px;
+  margin-bottom: 48px;
 }
 
 .col {
@@ -115,9 +130,10 @@ figcaption {
 }
 
 .main-footer {
-  text-align: center;
+/*  text-align: center;*/
 	padding: 2em 0;
 	background: #d9e4ea;
+  margin-top: 30px;
 }
 
 /* ---- Page Elements ---- */
@@ -130,12 +146,20 @@ figcaption {
   margin-bottom: 0;
 }
 
+.feat-img {
+  border-radius: 5px;
+}
+
+/*
+
 .icon-location {
   width: 35px;
   position: absolute;
   top: -15px;
   right: -15px;
 }
+
+*/
 
 
 
@@ -146,7 +170,13 @@ figcaption {
 @media (min-width: 769px) {
   
   body {
-    padding-top: 68px;
+/*    padding-top: 68px;*/
+  }
+  
+  .main-header,
+  .row {
+    width: 90%;
+    margin: 0 auto;
   }
   
   /*
@@ -158,36 +188,36 @@ figcaption {
     relative, absolute, or fixed positioning.
   */
   .main-header {
-    position: fixed;
-    background: #fff;
-    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);
-    width: 100%;
-    top: 0; /* Essentially anchors header at the top of the page. */
-    z-index: 1000;
+/*    position: fixed;*/
+/*    background: #fff;*/
+/*    box-shadow: 0 1px 4px rgba(0, 0, 0, .4);*/
+/*    width: 100%;*/
+/*    top: 0;  Essentially anchors header at the top of the page. */
+/*    z-index: 1000;*/
   }
   
   .container {
-    width: 90%;
-    margin: 0 auto;
+/*    width: 90%;*/
+/*    margin: 0 auto;*/
   }
   
   .name,
   .col {
-    float: left;
+/*    float: left;*/
   }
   
   .primary,
   .secondary {
-    width: 50%;
+/*    width: 50%;*/
   }
   
   .main-nav {
-    float: right;
+/*    float: right;*/
   }
   
   .main-nav li {
-    display: inline-block;
-    margin-left: 15px;
+/*    display: inline-block;*/
+/*    margin-left: 15px;*/
   }
   
   .tagline {
@@ -197,27 +227,33 @@ figcaption {
   /* ---- Float clearfix ---- */
   
   .clearfix::after {
-    content: " ";
-    display: table;
-    clear: both;
+/*    content: " ";*/
+/*    display: table;*/
+/*    clear: both;*/
   }
 
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1025px) {
   
-  .container {
-    width 80%;
+  .main-header,
+  .row {
+    width: 80%;
     max-width: 1150px;
   }
   
+  .container {
+/*    width 80%;*/
+/*    max-width: 1150px;*/
+  }
+  
   .primary {
-    width: 40%;
+/*    width: 40%;*/
   }
   
   .secondary,
   .tertiary {
-    width: 30%;
+/*    width: 30%;*/
   }
   
 }
