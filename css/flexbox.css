@@ -39,6 +39,11 @@
     order: -1; /* Makes 2nd column appear first. */
   }
   
+  .button {
+    margin-top: auto;
+    align-self: flex-start;
+  }
+  
 }
 
 @media (min-width: 1025px) {
