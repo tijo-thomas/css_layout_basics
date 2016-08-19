@@ -6,7 +6,8 @@
   
   .main-header,
   .main-nav,
-  .row {
+  .row,
+  .row2 {
     display: flex;
   }
   
@@ -26,6 +27,10 @@
   
   .row {
     flex-wrap: wrap;
+  }
+  
+  .learn {
+    flex: 1;
   }
   
   .secondary {
