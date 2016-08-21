@@ -195,6 +195,7 @@ figcaption {
     margin: 0 auto;
   }
   
+  /* This is the second flexbox container */
   .row2 {
     margin-top: 48px;
   }
